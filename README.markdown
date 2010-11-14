@@ -1,13 +1,13 @@
 # Web2Lead README
 
 ## Name
-Web2Lead - Send leads to to Salesforce CRM
+Web2Lead - Send leads to to [Salesforce CRM][salesforce]
 
 ## Version
 0.1
 
 ## Project Home
-Web2Lead can be found on github: http://github.com/felixmiddendorf/web2lead/
+Web2Lead can be found on [github][home].
 
 ## Synopsis
     <?php
@@ -20,20 +20,27 @@ Web2Lead can be found on github: http://github.com/felixmiddendorf/web2lead/
 
 ## Description
 Web2Lead allows you to programmatically send leads to Salesforce CRM using the
-Web to Lead mechanism. Leads are transferred using the cURL library, which
-therefore needs to be installed (see http://php.net/curl/).
+Web to Lead mechanism. Leads are transferred using the [cURL library][cURL],
+which therefore needs to be installed.
 
 ## Author
-Written and maintained by Felix Middendorf, http://www.felixmiddendorf.eu/
+Written and maintained by [Felix Middendorf][felixmiddendorf].
 
 ## Bug Reports
-http://github.com/felixmiddendorf/web2lead/issues/
+Please report bugs to the Web2Lead [issue tracker on github][issues].
 
 ## Copyright & License
 Copyright 2010 Felix Middendorf. All rights reserved. Web2Lead is released
-under GNU Lesser Public License (see COPYING.LESSER). Please respect copyright
-and license when using Web2Lead.
+under [GNU Lesser Public License][lgpl] (see COPYING.LESSER). Please respect
+copyright and license when using Web2Lead.
 
 ## Disclaimer
 Neither the author, nor the php Web2Lead library is in any way associated with
 Salesforce.
+
+[salesforce]: http://www.salesforce.com
+[home]: http://github.com/felixmiddendorf/web2lead/
+[cURL]: http://php.net/curl/
+[felixmiddendorf]: http://www.felixmiddendorf.eu/
+[issues]: http://github.com/felixmiddendorf/web2lead/issues/
+[lgpl]: http://www.gnu.org/licenses/lgpl.txt

@@ -24,6 +24,7 @@ therefore needs to be installed (see http://php.net/curl/).
 Written and maintained by Felix Middendorf, http://www.felixmiddendorf.eu/
 
   BUG REPORTS
+Please report bugs to the Web2Lead issue tracker on github:
 http://github.com/felixmiddendorf/web2lead/issues/
 
   COPYRIGHT & LICENSE
