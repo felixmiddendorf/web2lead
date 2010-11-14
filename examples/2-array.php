@@ -21,7 +21,7 @@ $lead_as_array = array('salutation' => 'Dr.',
 /**
  * Let's send it to Salesforce CRM. It's easy. Result will be true if everything
  * worked out fine, else it will be false.
- * @var boolean
+ * @var bool
  */
 $result = $web2lead->toSalesforce($lead_as_array);
 

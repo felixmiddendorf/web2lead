@@ -24,23 +24,24 @@ Web to Lead mechanism. Leads are transferred using the [cURL library][cURL],
 which therefore needs to be installed.
 
 ## Author
-Written and maintained by [Felix Middendorf][felixmiddendorf].
+Web2Lead was written and is maintained by [Felix Middendorf][felixmiddendorf].
+Please get in touch if you would like to contribute to its development.
 
 ## Bug Reports
 Please report bugs to the Web2Lead [issue tracker on github][issues].
 
 ## Copyright & License
 Copyright 2010 Felix Middendorf. All rights reserved. Web2Lead is released
-under [GNU Lesser Public License][lgpl] (see COPYING.LESSER). Please respect
-copyright and license when using Web2Lead.
+under [GNU Lesser Public License 3.0][lgpl] or later (see COPYING.LESSER).
+Please respect copyright and license when using Web2Lead.
 
 ## Disclaimer
 Neither the author, nor the php Web2Lead library is in any way associated with
-Salesforce.
+[Salesforce CRM][salesforce].
 
 [salesforce]: http://www.salesforce.com
 [home]: http://github.com/felixmiddendorf/web2lead/
 [cURL]: http://php.net/curl/
 [felixmiddendorf]: http://www.felixmiddendorf.eu/
 [issues]: http://github.com/felixmiddendorf/web2lead/issues/
-[lgpl]: http://www.gnu.org/licenses/lgpl.txt
+[lgpl]: http://www.gnu.org/licenses/lgpl-3.0.txt
