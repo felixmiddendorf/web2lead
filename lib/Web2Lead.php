@@ -36,7 +36,7 @@
  * $web2lead->toSalesforce(array('first_name' => 'Bobby'));
  * // or
  * $web2lead->toSalesforce($object);
- * // where object is an instance of SalesforceLead
+ * // where $object is an instance of SalesforceLead
  * </code>
  * @see http://php.net/curl/
  */

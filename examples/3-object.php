@@ -3,8 +3,10 @@
  * Lesson 3: Send your Objects to Salesforce CRM
  * 
  * This example teaches you how you can send objects of your very own classes
- * to Salesforce CRM.
+ * to Salesforce CRM if they implement the SalesforceLead interface.
  */
+
+require '../lib/SalesforceLead.php';
 
 /**
  * Let's say this is your Customer class. It should implement the SalesforceLead
