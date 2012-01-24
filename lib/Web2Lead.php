@@ -60,6 +60,12 @@ class Web2Lead{
 	private $lead_source = '';
 	
 	/**
+	 * The campaign transferred leads will be associated with.
+	 * @var string
+	 */
+	private $campaign_id = '';
+
+	/**
 	 * Encoding used when transferring leads. Default is UTF-8.
 	 * @var string
 	 */
@@ -132,6 +138,14 @@ class Web2Lead{
 	 */
 	public function setLeadSource($lead_source){
 		$this->lead_source = $lead_source;
+	}
+
+	/**
+	 * Set the campaign.
+	 * @param string $campaign_id
+	 */
+	public function setCampaign($campaign_id){
+		$this->campaign_id = $campaign_id;
 	}
 
 	/**
@@ -239,6 +253,10 @@ class Web2Lead{
 		if(empty($post['lead_source']) && !empty($this->lead_source)){
 			// add lead_source if it is not already set
 			$post['lead_source'] = $this->lead_source;
+		}
+		if(empty($post['Campaign_ID']) && !empty($this->campaign_id)){
+			// add Campaign_ID if it is not already set
+			$post['Campaign_ID'] = $this->campaign_id;
 		}
 		// arg_separator.output can not always be trusted, therfore '&' will
 		// always be used as the separator for POST requests
